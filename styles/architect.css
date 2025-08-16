@@ -215,6 +215,16 @@
   grid-template-columns: repeat(5,1fr);
   filter: grayscale(100%);
  }
+ /* footer section styles */
+ .footer-section{
+  max-width: 1440px;
+  height: 98px;
+  margin: 0 auto;
+  text-align: center;
+ }
+ .copyright{
+   padding: 37px 50px 37px 50px;
+ }
  @media screen and (max-width:576px){
      .navbar, .navlinks ul, .features-section, .features-card-section{
         flex-direction: column;
@@ -247,7 +257,7 @@
       margin-top: 50px;
     }
     .our-features-card{
-      width: 340px;
+      width: 320px;
     }
     .architect-img img{
       width: 100%;
@@ -273,6 +283,12 @@
       gap: 30px;
       margin-top: -20px;
     }
+    .footer-section{
+      margin-top: 30px;
+    }
+    .copyright{
+   padding: 10px 20px 10px 20px;
+ }
  }
 
     /* medium devices */
@@ -313,6 +329,14 @@
       gap: 30px;
       margin-top: -20px;
     }
+    
+    .footer-section{
+      margin-top: 50px;
+    }
+     .copyright{
+      padding: 20px 30px 20px 30px;
+    }
+
     }
 
 
