@@ -33,7 +33,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    display: flex;
     gap: 70px;
     list-style: none;
 }
@@ -216,10 +215,12 @@
   filter: grayscale(100%);
  }
  /* footer section styles */
- .footer-section{
-  max-width: 1440px;
-  height: 98px;
+ footer{
   margin: 0 auto;
+  max-width: 1440px;
+ }
+ .footer-section{
+  margin-top: 80px;
   text-align: center;
  }
  .copyright{
